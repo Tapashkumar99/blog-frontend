@@ -15,23 +15,22 @@ const NavBar = () => {
               />
               <span className="ml-3 text-xl">Travel India</span>
             </a>
-            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-              <a class="mr-5 hover:text-gray-900">
-                <Link to="/" className="pl-4 pr-2">
+            <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-xl justify-center pl-4 pr-2">
+              <a className="mr-5 hover:text-gray-900" href="/">
+                {/* <Link to="/" className="pl-4 pr-2"> */}
                   Home
-                </Link>
+                {/* </Link> */}
               </a>
-              <a class="mr-5 hover:text-gray-900">
-                <Link to="/about" className="pl-2 pr-2">
+              <a className="mr-5 hover:text-gray-900 pl-2 pr-2" href="/about">
+                {/* <Link to="/about" className="pl-2 pr-2"> */}
                   About
-                </Link>
+                {/* </Link> */}
               </a>
-              <a class="mr-5 hover:text-gray-900">
-                <Link to="/articles-List" className="pl-2 pr-2">
+              <a className="mr-5 hover:text-gray-900 pl-2 pr-2" href="/articles-List">
+                {/* <Link to="/articles-List" className="pl-2 pr-2"> */}
                   ArticlesList
-                </Link>
+                {/* </Link> */}
               </a>
-              <a class="mr-5 hover:text-gray-900"></a>
             </nav>
           </div>
         </header>
