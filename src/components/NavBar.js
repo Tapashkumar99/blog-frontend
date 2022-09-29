@@ -6,7 +6,7 @@ const NavBar = () => {
     <>
       <div>
         <header className="text-purple-900 body-font bg-gray-300" style={{fontWeight:"bold"}}>
-          <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+          <div className="container mx-auto flex flex-wrap p-1 flex-col md:flex-row items-center">
             <a className="flex title-font font-medium items-center text-purple-900 mb-4 md:mb-0" href="/">
               <img
                 src="https://www.pinclipart.com/picdir/big/47-476312_india-transparent-clipart-indian-flag-logo-png.png"

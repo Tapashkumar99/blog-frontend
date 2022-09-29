@@ -33,7 +33,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <div className="pt-19" style={{paddingTop:"3.3rem"}}><Footer/></div>
+        <div className="pt-21" style={{paddingTop:"3.3rem"}}><Footer/></div>
       </div>
     </>
   );
