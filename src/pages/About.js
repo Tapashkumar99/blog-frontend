@@ -32,7 +32,7 @@ const About = () => {
                   travelindia@hotmail.com
                 </a>
                 <p className="leading-normal my-5">
-                  49 Chandni Chouk
+                  49 Chandni Chowk
                   <br />
                   New Delhi, 110001
                 </p>

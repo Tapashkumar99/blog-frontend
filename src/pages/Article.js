@@ -28,7 +28,7 @@ const Article = () => {
     const otherArticles = articles.filter((article) => article.name !== name.name);
 
   return (
-    <div className="px-9 bg-gray-100">
+    <div className="px-24 bg-gray-100">
       <h1 className="sm:text-4xl text-2xl font-bold pt-9 text-gray-900 text-center text-purple-800 pb-4">
       {article.title}
       </h1>
