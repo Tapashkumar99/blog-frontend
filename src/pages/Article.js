@@ -5,6 +5,7 @@ import articles from "./article-content";
 import Articles from "../components/Articles";
 import { CommentsList } from "../components/CommentsList";
 import { AddCommentForm } from "../components/AddCommentForm";
+import Footer from "../components/Footer";
 
 const Article = () => {
     const name = useParams();
@@ -27,8 +28,8 @@ const Article = () => {
     const otherArticles = articles.filter((article) => article.name !== name.name);
 
   return (
-    <div className="mb-20">
-      <h1 className="sm:text-4xl text-2xl font-bold mt-6 text-gray-900">
+    <div className="px-9 bg-gray-100">
+      <h1 className="sm:text-4xl text-2xl font-bold pt-9 text-gray-900 text-center text-purple-800 pb-4">
       {article.title}
       </h1>
       {article.content.map((paragraph, index) =>
@@ -40,12 +41,13 @@ const Article = () => {
       <AddCommentForm articleName={name} setArticleInfo={setArticleInfo} />
 
 
-      <h1 className="sm:text-2x text-xl font-bold mt-4 mb-4 text-gray-900">
+      <h1 className="sm:text-2x text-xl font-bold mt-4 mb-4 text-gray-900 py-2 ">
         Other Articles:
       </h1>
       <div className="flex flex-wrap -m-4">
         <Articles articles={otherArticles} />
       </div>
+      <div className="pt-8"><Footer/></div>
     </div>
   );
 };

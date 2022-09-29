@@ -31,33 +31,11 @@ const NavBar = () => {
                   ArticlesList
                 </Link>
               </a>
-              <a class="mr-5 hover:text-gray-900"> </a>
+              <a class="mr-5 hover:text-gray-900"></a>
             </nav>
           </div>
         </header>
       </div>
-      {/* <div
-      className="border-b-4 border-blue-500 fixed top-0 w-full bg-blue-500 
-    font-bold text-lg text-white"
-    >
-      <ul className="text-center">
-        <li className="inline-block pt-4 pb-4">
-          <Link to="/" className="pl-6 pr-8">
-            Home
-          </Link>
-        </li>
-        <li className="inline-block pt-4 pb-4">
-          <Link to="/about" className="pl-6 pr-8">
-            About
-          </Link>
-        </li>
-        <li className="inline-block pt-4 pb-4">
-          <Link to="/articles-List" className="pl-6 pr-8">
-            ArticlesList
-          </Link>
-        </li>
-      </ul>
-    </div> */}
     </>
   );
 };

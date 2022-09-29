@@ -3,13 +3,21 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <section className="text-gray-600 body-font relative">
+      <section className="text-gray-700 body-font relative bg-gray-100">
         <div className="container px-5 pb-24 pt-10 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-purple-700">
               About Us
             </h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p className="text-gray-800 ">
+              IndiaTravelBlog.com is one of the best Indian travel blogs where
+              people share real travel experience to various tourist
+              destinations. The travelogues published here include experience at
+              various thrilling and relaxing destinations like hill stations,
+              houseboats, lakes, beaches, mountains, pilgrim places and much
+              more. Read our blogs and you will feel you were there.
+            </p>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-800">
               We are travel blogger from India and like to partner with you.
               Let's join hands and work together for mutual benefits. There are
               several ways we can collaborate including exchanging travel
@@ -19,7 +27,7 @@ const About = () => {
           </div>
           <div class="lg:w-1/2 md:w-2/3 mx-auto">
             <div class="flex flex-wrap -m-2">
-              <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+              <div class="p-2 w-full pt-8 mt-8 border-t border-gray-300 text-center">
                 <a class="text-purple-500" href="#">
                   travelindia@hotmail.com
                 </a>
@@ -29,7 +37,7 @@ const About = () => {
                   New Delhi, 110001
                 </p>
                 <span class="inline-flex">
-                  <a class="text-gray-500">
+                  <a class="text-blue-800">
                     <svg
                       fill="currentColor"
                       stroke-linecap="round"
@@ -41,7 +49,7 @@ const About = () => {
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                     </svg>
                   </a>
-                  <a class="ml-4 text-gray-500">
+                  <a class="ml-4 text-blue-500">
                     <svg
                       fill="currentColor"
                       stroke-linecap="round"
@@ -53,7 +61,7 @@ const About = () => {
                       <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                     </svg>
                   </a>
-                  <a class="ml-4 text-gray-500">
+                  <a class="ml-4 text-pink-500">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -74,7 +82,7 @@ const About = () => {
                       <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                     </svg>
                   </a>
-                  <a class="ml-4 text-gray-500">
+                  <a class="ml-4 text-green-500">
                     <svg
                       fill="currentColor"
                       stroke-linecap="round"

@@ -6,7 +6,7 @@ const Articles = ({articles}) => {
     <>
         {articles.map((article) => (
             <div className="p-4 md:w-1/2">
-              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg
+              <div className="h-full border-2 border-gray-400 border-opacity-60 rounded-lg
               overflow-hidden">
                 <Link to={`/article/${article.name}`}>
                   <img
@@ -26,7 +26,7 @@ const Articles = ({articles}) => {
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <Link
-                      className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      className="text-indigo-700 inline-flex items-center md:mb-2 lg:mb-0"
                       to={`/article/${article.name}`}
                     >
                       Learn More

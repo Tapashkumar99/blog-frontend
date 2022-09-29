@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-
+import "./App.css"
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
 import Article from "./pages/Article.js";
@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      {/* <div className="max-w-screen-md mx-auto pt-20"> */}
+      <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="*" element={<NotFound/>} />
         </Routes>
        
-      {/* </div> */}
+      </div>
     </BrowserRouter>
   );
 }
