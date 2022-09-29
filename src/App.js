@@ -13,7 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <div className="max-w-screen-md mx-auto pt-20">
+      {/* <div className="max-w-screen-md mx-auto pt-20"> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="*" element={<NotFound/>} />
         </Routes>
        
-      </div>
+      {/* </div> */}
     </BrowserRouter>
   );
 }
